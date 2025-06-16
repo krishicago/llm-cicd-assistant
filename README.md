@@ -15,17 +15,15 @@ A lightweight, production-ready FastAPI service that integrates a **locally host
 
 ## 📂 Project Structure
 llm-cicd-assistant/
-├── backend/
-│   ├── main.py               # FastAPI server
-│   ├── llm_engine.py         # Mistral integration logic
-├── models/
-│   └── mistral-7b-instruct-v0.1.Q4_K_M.gguf  # Your local LLM file
-├── .github/
-│   └── workflows/
-│       └── pr-review.yaml    # (To be added) GitHub Action
-├── requirements.txt
+.
 ├── README.md
-└── .gitignore
+├── backend
+│   ├── __init__.py
+│   ├── llm_engine.py
+│   └── main.py
+├── models
+│   └── mistral-7b-instruct-v0.1.Q4_K_M.gguf
+└── requirements.txt
 
 ## Duplicating this in your system:
 
